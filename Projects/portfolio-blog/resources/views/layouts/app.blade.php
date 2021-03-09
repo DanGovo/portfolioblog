@@ -14,6 +14,9 @@
     <link href="{{ asset('assets/css/sweetalert.css') }}" rel="stylesheet" type="text/css"/>
     <link href="{{ asset('assets/css/select2.min.css') }}" rel="stylesheet" type="text/css"/>
 
+    {{-- custom styling --}}
+    {{-- <link href="{{ URL::asset('css/custom.css') }}" rel="stylesheet" type="text/css" > --}}
+
 @yield('page_css')
 <!-- Template CSS -->
     <link rel="stylesheet" href="{{ asset('web/css/style.css') }}">
